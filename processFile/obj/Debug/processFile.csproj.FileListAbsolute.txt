@@ -1,0 +1,6 @@
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\bin\Debug\processFile.exe.config
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\obj\Debug\processFile.csprojResolveAssemblyReference.cache
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\bin\Debug\processFile.exe
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\bin\Debug\processFile.pdb
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\obj\Debug\processFile.exe
+c:\users\vitalyki\documents\visual studio 2013\Projects\processFile\processFile\obj\Debug\processFile.pdb
