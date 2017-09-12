@@ -5,8 +5,6 @@ namespace processFile
     public class ConsoleMenu:LogicCore
     {
         private string pathToFile = "";
-        private bool isFileRead = false;
-        private bool ifFileProcessed = false;
         string menuMenu = "Menu:";
         string menuReadFile = "Click 1 to read the File.txt";
         private bool allowedReadFile = false;
@@ -64,7 +62,10 @@ namespace processFile
 
         public void StartConsoleProgram()
         {
-            ProcessSelectedAction(MenuListOfActions());
+            while (true)
+            {
+                ProcessSelectedAction(MenuListOfActions());
+            }
         }
 
         public string MenuSelectApplicationType()
@@ -157,6 +158,10 @@ namespace processFile
                     break;
                 }
                 case "2":
+                    LogicReplaceSymbols();
+                    break;
+                case "3":
+
                     break;
                 case "0":
                     Environment.Exit(0);
