@@ -152,8 +152,10 @@ namespace processFile
             switch (menuItem)
             {
                 case "1":
-                    consoleLogicCore.LogicReadFile("lflflf");
+                {
+                    LogicReadFile(GetPathToTheFile());
                     break;
+                }
                 case "2":
                     break;
                 case "0":
